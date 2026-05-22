@@ -1,0 +1,13 @@
+{
+  "name": "broadband-compare",
+  "version": "1.0.0",
+  "description": "三大运营商宽带资费对比",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server && node index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
